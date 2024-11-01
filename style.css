@@ -109,3 +109,6 @@ border-radius: 100px;
 .card:focus {
     outline: none;
 }
+.card {
+    -webkit-tap-highlight-color: transparent; /* For mobile browsers */
+}
