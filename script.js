@@ -99,3 +99,14 @@ resetButton.addEventListener('click', setupBoard);
 
 // Initialize board on page load
 setupBoard();
+
+
+const colorPicker = document.querySelector('.color-picker');
+colorPicker.addEventListener('input', function(e) {
+    cards.forEach(row => {
+        row.forEach(card => {
+            card.style.backgroundColor = e.target.value;
+        });
+    });
+});
+

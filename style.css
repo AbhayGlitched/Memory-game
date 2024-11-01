@@ -36,6 +36,7 @@ body {
 
 
 
+
 }
 
 .row {
@@ -43,11 +44,12 @@ body {
 }
 
 .card {
-    background-color: transparentt;
+    background-color:transparent;
     background: blur 3px;
     content-visibility: hidden;
     display: block;
-    margin: 10px;
+    margin: cover; 
+    margin-top: 0%  ;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -69,7 +71,7 @@ body {
     content-visibility: visible;
 }
 
-.move-counter {
+.move-counter{
     color: white;
     border: none;
     display: block;
@@ -88,4 +90,13 @@ body {
     width: 100vw;
     font-size: 2rem;
     color: rgb(255, 255, 255);
+}
+
+.color-picker{
+border: none;
+    width: 10vw rem;
+    display: block;
+    text-align: center;
+   margin-left: 43vw;
+ 
 }
