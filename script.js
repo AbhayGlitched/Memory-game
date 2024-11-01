@@ -35,6 +35,7 @@ function setupBoard() {
     moveCount = 0;
     moveCounter.textContent = `Moves: ${moveCount}`;
     title.innerHTML = "Memory Game";
+    
 }
 
 let firstCard = null;
@@ -95,8 +96,16 @@ function checkAllMatched() {
 }
 
 // Reset button functionality
-resetButton.addEventListener('click', setupBoard);
+resetButton.addEventListener('click', adder);
 
+function adder(){
+    setupBoard();
+    cards.forEach(row => {
+        row.forEach(card => {
+            card.style.backgroundColor = 'rgb(24, 24, 24)';
+        });
+    });
+}
 // Initialize board on page load
 setupBoard();
 

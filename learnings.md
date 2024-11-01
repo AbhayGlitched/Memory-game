@@ -12,3 +12,6 @@ idk how
 - splice changes the original array
  
 ## dfdf
+
+
+-- i did good stuff

@@ -5,6 +5,11 @@
     user-select: none;
 }
 
+.controls {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 body {
     background-color: rgb(24, 24, 24);
     background-size: cover;
@@ -49,7 +54,7 @@ body {
     content-visibility: hidden;
     display: block;
     margin: cover; 
-    margin-top: 0%  ;
+
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -93,10 +98,14 @@ body {
 }
 
 .color-picker{
-border: none;
-    width: 10vw rem;
-    display: block;
-    text-align: center;
-   margin-left: 43vw;
+display: flexbox;
+align-items: center;
+align-content: center;
+margin-left: 49vw;
+flex-direction: row;
+text-align: center;
+aspect-ratio: 1/1;
+width: 3vw;
+border-radius: 100px;
  
 }
