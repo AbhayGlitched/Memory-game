@@ -106,3 +106,6 @@ width: 3vw;
 border-radius: 100px;
  
 }
+.card:focus {
+    outline: none;
+}
